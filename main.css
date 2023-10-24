@@ -9,7 +9,7 @@ background: linear-gradient(rgb(15, 23, 42), rgb(16, 26, 54));
 header {
     display: flex;
     justify-content: flex-end;
-    gap: 900px;
+    gap: 700px;
 }
 
 .header__Initials {
@@ -34,6 +34,27 @@ a {
     text-decoration: none;
 }
 
+.nav__ul__Button {
+color: inherit;
+background-color: inherit;
+border: none;
+font-size: inherit;
+font-family: inherit;
+cursor: pointer;
+
+}
+.nav__ul__Button:hover {
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.removeButton {
+color: inherit;
+background-color: inherit;
+border: none;
+font-family: inherit;
+cursor: pointer;
+    
+}
 
 .divInfo {
 margin-top: 250px;
@@ -66,3 +87,11 @@ height: 300px;
 padding-left: 15px;
 }
 
+.navBarOnClick {
+    display: flex;
+    flex-flow: column nowrap;
+
+    max-height: 100px;
+    max-width: 600px;
+    
+}
