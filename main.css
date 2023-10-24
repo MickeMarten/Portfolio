@@ -1,9 +1,12 @@
+html {
+    height: auto;
+}
 * {
     color: whitesmoke;
 }
 body {
-min-height: 1000px;
 background: linear-gradient(rgb(15, 23, 42), rgb(16, 26, 54));
+background-attachment: fixed;
 }
 
 header {
@@ -50,17 +53,19 @@ cursor: pointer;
 .removeButton {
 color: inherit;
 background-color: inherit;
-border: none;
 font-family: inherit;
 cursor: pointer;
-    
+border: none;
+width: 10px;
+height: 10px;
+
 }
 
 .divInfo {
 margin-top: 250px;
-margin-left: 300px;
-display: flex;
-flex-flow: column;
+margin-left: 200px;
+width: 700px;
+height: 100px;
 }
 
 .divInfo__h2 {
@@ -81,26 +86,30 @@ word-wrap: break-word;
 display: flex;
 flex-flow: column;
 gap: 10px;
-margin-bottom: 300px;
-max-width: 40px;
-height: 300px;
+max-width: 25px;
 padding-left: 15px;
+margin-top: 100px;
 }
 
 .navBarOnClick {
-    display: flex;
-    flex-flow: column nowrap;
-
-    max-height: 100px;
-    max-width: 600px;
-    
+    margin-top: 242px;
+   margin-left: 1100px;
+   position: absolute;
+   height: 400px;
+   width: 800px;
 }
+
+
 
 .aboutMeInfo, .removeButton {
   animation-name: fadeIn;
   animation-duration: 0.7s;
     
     
+}
+.aboutMeInfo {
+    width: 600px;
+    word-spacing: 5px;
 }
 
 
